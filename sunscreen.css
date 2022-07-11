@@ -1,0 +1,174 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Crimson Text', serif;
+    background-image: url(./img/javier-miranda-nc1zsYGkLFA-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    /*font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;*/
+}
+
+h2, h3{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}
+
+p{
+       font-family: 'Nunito Sans', sans-serif;
+       font-weight: 700;
+}
+
+ /* ===========================nav bar ======================================*/
+.nav{
+    width: 100%;
+    background-color: #533737;
+    /*text-align: center;*/
+}
+
+/* ===============================Company name =============================*/
+.head{
+    float: left;
+    width: 30%;
+    height: 60px;
+    line-height: 50px;
+    font-size: 20px;
+}
+.head a{
+    text-decoration: none;
+    color: #f8fcfc;
+}
+
+.head_1{
+    margin: 0px 10px;
+    padding: 5px;
+}
+
+.head_2{
+    color: #4ad1f3;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    border-top: 2px groove wheat;
+}
+
+/* =========================================nav menu bar ==============================================*/
+.nav ul{
+    margin: 0%;
+    padding: 0%;
+    display: inline-flex;
+    list-style: none;
+}
+
+.nav ul li{
+    padding: 10px;
+    margin: 10px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: #f8fcfc;
+    letter-spacing: 1px;
+    font-size: 1em;
+    padding: 8px;
+    opacity: 1;
+    transition: opacity 0.25s ease-in-out;
+}
+
+.nav ul li a:hover{
+    opacity: 0.6;
+}
+
+/* icon position relative to text */
+.fa{
+    padding: 0px 5px;
+}
+
+/* =========================sub menu item ================================================*/
+.sub_menu{
+    display: none;
+}
+
+.nav ul li:hover .sub_menu{
+    display: block;
+    position: absolute;
+    background-color: #533737;
+    text-align: left;
+}
+
+.nav ul li:hover .sub_menu ul{
+    display: block;
+}
+
+.nav ul li:hover .sub_menu ul li{
+    font-size: 14px;
+    border-bottom: 2px ridge #f8fcfc;
+}
+
+.nav ul li:hover .sub_menu ul li:last-child{
+    border-bottom: none;
+}
+
+/* ================================section content ==================================================*/
+
+.section{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    /*background-color: red;*/
+    margin-top: 12%;
+    padding: 10px;
+    text-align: center;
+}
+
+.h3_center{
+    color: #f8fcfc;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    margin-top: 10px;
+}
+
+.p_center{
+    color: #4ad1f3;
+    font-size: 18px;
+}
+
+button{
+    padding: 10px;
+    background-color: #533737;
+    border: 1px ridge #f8fcfc;
+    border-radius: 5px;
+    margin: 10px 20px;
+    font-size: 16px;
+    font-family: 'Crimson Text', serif;
+    letter-spacing: 1px;
+}
+
+button a{
+    text-decoration: none;
+    color: #f8fcfc;
+    opacity: 1;
+    transition: opacity 0.25s ease-in-out;
+}
+
+button a:hover{
+    opacity: 0.6;
+}
+
+.img{
+    width: 60px;
+    height: 60px;
+}
+
+
+
+
+
+
+
+
+
